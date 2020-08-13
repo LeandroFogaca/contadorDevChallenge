@@ -15,11 +15,11 @@ var d, h, m, s
 
 d = Math.floor((diff/(1000*60*60*24)*(-1)))
 
-h = ((data.getHours() - 21) - now.getHours())*(-1)
+h = ((data.getHours() - 21) - now.getHours())
 
-m = (data.getMinutes() - now.getMinutes())*(-1)
+m = (data.getMinutes() - now.getMinutes())
 
-s = (data.getSeconds() - now.getSeconds())*(-1)
+s = (data.getSeconds() - now.getSeconds())
 
 
 
