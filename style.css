@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+.contador {
+    color: #21EB00;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.text {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+div {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    font-size: 30px;
+    background-color: #21EB00;
+    width: 300px;
+    height: 70px;
+    border-style: none;
+}
+
+input {
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    width: 300px;
+    font-size: 20px;
+    height: 70px;
+    background-color: #363636;
+    color: gray;
+    border-style: none;
+
+}
+.top{
+    align-content: space-between;
+    align-items:start;
+}
+
