@@ -1,3 +1,15 @@
+input {
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    width: 300px;
+    font-size: 20px;
+    height: 70px;
+    background-color: #363636;
+    color: gray;
+    border-style: none;
+
+}
 button {
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
@@ -38,18 +50,6 @@ div {
 */
 
 /*
-input {
-    -moz-border-radius: 7px;
-    -webkit-border-radius: 7px;
-    border-radius: 7px;
-    width: 300px;
-    font-size: 20px;
-    height: 70px;
-    background-color: #363636;
-    color: gray;
-    border-style: none;
-
-}
 .top{
     align-content: space-between;
     align-items:start;

@@ -7,23 +7,32 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container flex">
+    <div class="container-fluid bg">
+        <div class="row justify-content-center align-items-center">
+            <p class="contador">Contador</p>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <p class="text">Qual a data?</p>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <input type="date" name="data" id="input"><br>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <button>
+                <strong>Iniciar contagem</strong>
+            </button>
+        </div>
 
-        <p class="contador">Contador</p>
-        <p class="text">Qual a data?</p>
-        <input type="date" name="data" id="input"><br>
-        <button>
-            <strong>Iniciar contagem</button>
-        </strong>
 
     </div>
 
     <script src="script_index.js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
@@ -31,7 +40,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script> -->
+        crossorigin="anonymous"></script>
 
 </body>
 
