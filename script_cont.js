@@ -13,13 +13,13 @@ var diff = Data - now
 
 var d, h, m, s
 
-d = Math.floor((diff/(1000*60*60*24)*(-1)))
+d = Math.floor((diff/(1000*60*60*24)))
 
-h = ((data.getHours() - 21) - now.getHours())
+h = ((data.getHours() - 21) - now.getHours())*(-1)
 
-m = (data.getMinutes() - now.getMinutes())
+m = (data.getMinutes() - now.getMinutes())*(-1)
 
-s = (data.getSeconds() - now.getSeconds())
+s = (data.getSeconds() - now.getSeconds())*(-1)
 
 
 

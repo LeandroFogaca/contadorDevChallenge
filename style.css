@@ -1,5 +1,12 @@
-body {
-    background-color: black;
+button {
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 15px;
+    font-size: 30px;
+    background-color: #21EB00;
+    width: 300px;
+    height: 70px;
+    border-style: none;
 }
 
 .contador {
@@ -9,11 +16,18 @@ body {
     margin-bottom: 20px;
 }
 
+html, .bg, body{
+    background-color: black;
+    height: 100%;
+}
 .text {
     color: gray;
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
 }
+/* 
+
+
 
 div {
     flex-direction: row;
@@ -21,18 +35,9 @@ div {
     display: flex;
     flex-direction: column;
 }
+*/
 
-button {
-    -moz-border-radius: 7px;
-    -webkit-border-radius: 7px;
-    border-radius: 7px;
-    font-size: 30px;
-    background-color: #21EB00;
-    width: 300px;
-    height: 70px;
-    border-style: none;
-}
-
+/*
 input {
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
@@ -49,4 +54,9 @@ input {
     align-content: space-between;
     align-items:start;
 }
+.result{
+    color: aliceblue;
+    display: inline-block;
+    background-color: blueviolet;
 
+} */
